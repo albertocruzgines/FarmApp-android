@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="214dp"
+        android:layout_weight="0.37"
+        android:background="@drawable/logo1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/vpedidos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="Vpedidos"
+            android:text="Ver pedidos" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vpedidos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Datos del usuario" 
+             android:textSize="24dip"
+                android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv5"
+            android:layout_alignLeft="@+id/tv5"
+            android:layout_marginBottom="38dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv5"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="30dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tv3"
+            android:layout_below="@+id/tv3"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="82dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</LinearLayout>
